@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    margin-left: 20px;
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: white;
+}
+
+h3{
+    color: white;
+    font-size: 23px;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card1{
+    margin-left: 20px;
+    margin-top: 80px;
+    border: none;
+    width: 280px;
+    height: auto;
+    background-color: #232323;
+    border-radius: 20px;
+}
+
+.heading{
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.card1:hover{
+    background-color: #5C5CFF;
+}
+
+.aurthor{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile{
+    border-radius: 50px;
+    height: 65px;
+}
+
+.description{
+    margin-left: 40px;
+}
+
+.btndot{
+    display: flex;
+}
+
+.button{
+    padding: 10px 5px 20px 40px;    
+}
+
+.btn1{
+    background-color: rgb(89,94,220);
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: white;
+    
+}
+    
